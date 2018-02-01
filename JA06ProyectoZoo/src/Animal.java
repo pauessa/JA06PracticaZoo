@@ -41,5 +41,9 @@ public class Animal {
     public void mostrarPaisOigen(){
         System.out.println(this.paisOrigen);
     }
+    @override
+    public String toString(){
+        return this.getPaisOrigen();
+    }
     
 }
