@@ -38,4 +38,8 @@ public class Animal {
     public int getEdad() {
         return edad;
     }
+    public void mostrarPaisOigen(){
+        System.out.println(this.paisOrigen);
+    }
+    
 }
